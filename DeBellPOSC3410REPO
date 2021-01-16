@@ -1,0 +1,110 @@
+# Title: POSC-3410 Lab 1
+# Author: Curtis DeBell
+# git config --global user.email "cdebell@clemson.edu"
+# git config --global user.name "cdebell-hub"
+# Date: January 13, 2021
+
+# Lesson 1 ####
+
+# Lesson 2 ####
+
+# Let's Try Some Basic Arithmetic ####
+
+# Sum of 1 and 1
+1+1
+
+# Divide 365 by 12
+365/12
+
+# Your turn, multiply 10 by 12
+10*12
+
+# Your turn, add 28 + 38
+28+38
+
+# Order of Operations in R
+1+1*(365/12)
+
+# Multiply 6 by 6
+6*6
+
+# Divide 9 by 3.142
+9/3.142
+
+# Learning to assign variables ####
+
+#Run this line of code to assign your first variable.
+myFirstVar<- "Hello world!"
+
+# Run myFirstVar in the console.
+myFirstVar
+
+# Code a second variable with a number.
+mySecondVar<-16
+
+# Run myFirstVar in the console.
+mySecondVar
+
+#Now let's practice assigning variables.
+# Assign "Clemson" to`home`
+home <- "Clemson"
+
+# Assign "Tigers" to`h_mascot`
+h_mascot <- "Tigers"
+
+# Assign "Ohio State" to`away'
+
+
+
+# Assign 'Buckeyes'to`a_mascot`
+
+# Assign 31 to``
+homeScore <- 31
+
+# Assign 0 to`awayScore`
+
+# Assign TRUE to homeWin
+homeWin<- TRUE
+
+# Assign FALSE to awayWin
+
+# 'c(12,8,16,4,15)'
+vector_numeric <-c(12,8,16,4,15)
+str(vector_numeric)
+
+# 'c(13,9,6,4,25)'
+vector_numeric <-c(13,9,6,4,25)
+str(vector_numeric)
+
+vector_logical <-c(TRUE, TRUE, FALSE, T, F)
+str(vector_logical)
+
+vector_logical <-c(TRUE, FALSE, FALSE, T, T)
+str(vector_logical)
+
+vector_character <-c("Montana", "Aikman", "Manning", "Favre", "Mahomes")
+str(vector_character)
+
+vector_character <-c("Lawrence", "Etienne", "Ross", "Sweeney", "Powell")
+str(vector_character)
+
+CurtisDeBellList <-list(vector_numeric, vector_logical, vector_character)
+str(CurtisDeBellList)
+
+# What type of data structure is returned by calling names(QB_df)?
+names(QB_df)
+
+## [1] "qbName"         "vector_numeric" "vector_logical"
+# Answer: a vector.
+
+# If we want to rename a specific element of the vector, then we need to use indexing to select the element of the vector.
+names(QB_df)[
+names
+(QB_df)=="vector_numeric"]## [1] "vector_numeric"
+
+# Now we need to assign a new value to it.
+names(QB_df)[names(QB_df)=="vector_numeric"] <- "jerseyNum"
+# Repeat this process for the 3rd column: HoFer (Hall of Famer)
+
+  $ git config --global user.email "cdebell@clemson.edu"
+  git config --global user.name "cdebell-hub"
